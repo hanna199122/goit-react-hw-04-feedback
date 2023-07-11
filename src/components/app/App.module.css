@@ -1,0 +1,23 @@
+.app-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  font-size: 24px;
+  font-weight: 600;
+
+  padding: 40px;
+  gap: 20px;
+}
+
+.feedback {
+  margin-bottom: 30px;
+}
+
+section {
+  padding: 40px;
+}
+
+section h2 {
+  margin-bottom: 20px;
+}

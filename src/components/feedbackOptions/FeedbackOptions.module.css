@@ -1,0 +1,27 @@
+.feedbackList__item:not(:last-child) {
+  margin-right: 10px;
+}
+
+.feedbackList__item {
+  text-transform: capitalize;
+  width: 100px;
+  height: 40px;
+  background-color: teal;
+  border: none;
+  color: white;
+  font-size: 18px;
+}
+
+.feedbackList__item:hover,
+.feedbackList__item:focus .feedbackList__item:active {
+  background-color: blue;
+}
+
+.feedbackList {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 0;
+  margin: 0;
+}
